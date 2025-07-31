@@ -1,0 +1,43 @@
+*{
+    text-align: center;
+}
+
+html{
+    background-color: #72b5e6;
+    font-size: 16px;
+}
+
+body{
+    width: 640px; 
+    margin: auto; /*너비에서 남는 여백을 동일하게 자동으로 분배*/
+}
+
+h1{
+    font-size: 60px;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    border-radius: 100px;
+}
+
+p{
+    line-height: 20px;
+
+    font-family: Arial impact;
+}
+
+h3{
+    text-decoration: 10px;
+
+    font-size: 34px;
+
+    color: darkblue;
+}
+
+h3#name{
+    color: black;
+
+    font-size: 38px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <mata 
+        http-equiv="x-ua-compatible" 
+        content="IE=edge">
+        <title>문서 기본 구조</title>
+        <style>
+
+            /* 선택자 우선순위: 쓰여진 순서랑 관계없이 적용되는 순위
+            1. 아이디 선택자
+            2. 클래스 선택자
+            3. 태그 선택자
+            */
+            *{
+                color: red;
+            }
+            li{
+                color: blue;
+            }
+            li.noodle{
+                color: chartreuse;
+            }
+            li#gmae{
+                color: bisque;
+            }
+            li#name{
+                color: skyblue;
+            }
+
+            h2, p, li{
+                color: beige;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>지혜가 좋아하는 거</h2>
+        <p>주제 상관없이 모아놓았습니다.</p>
+        <ul>
+            <li class="noodle">불닭볶음면</li>
+            <li class="noodle">핑크</li>
+            <li class="noodle">메이플</li>
+            <li id="game">발로란트</li>
+            <li id="name">박재현</li>
+        </ul>
+    </body>
+</html>

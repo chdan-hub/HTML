@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <mata 
+        http-equiv="x-ua-compatible" 
+        content="IE=edge">
+        <title>문서 기본 구조</title>
+        <style>
+            div{
+                width: 100px;
+                height: 100px;
+                position: relative;
+            }
+            .div1{background-color: aqua; 
+                z-index: 4;
+                overflow: auto;
+            }
+            .div2{background-color: firebrick; bottom: 50px; z-index: 3;}
+            .div3{background-color: black; bottom: 100px; z-index: 2;}  
+            .div4{background-color: orange; bottom: 150px; z-index: 1;}
+            /*
+            제트 인덱스 특이사항
+            1. 포지션 지정 요소들끼리의 제트축 순서를 정한다. 쌓임 순서를 정한다.
+            2. 포지션이 지정되지 않은 요소들에 대해서는 사용하는 속성이 아니다.
+            3. 상대적으로 비교한다. 값을 상대적으로 본다.(꼭 1234로 안 해도 된다.)
+            */
+        </style>
+    </head>
+    <body>
+        <div class="div1">
+            aquaaquaaquaaquaaquaaquaaquaaquaaqua
+            aquaaquaaquaaquaaquaaquaaquaaquaaqua
+            aquaaquaaquaaquaaquaaquaaquaaquaaqua</div>
+        <div class="div2">2</div>
+        <div class="div3">3</div>
+        <div class="div4">4</div>
+    </body>
+</html>
